@@ -1,0 +1,140 @@
+* {
+	margin: 5px;
+	padding: auto;
+}
+body{
+    background-color: #c8baba;
+
+}
+header {
+    background-color: #3a3a3d;
+	color: #fff;
+	text-align: center;
+    font-size: x-large;
+    margin: auto;
+    margin-top: -10px;
+}
+nav {
+    background-color: #262629;
+	border-right: 1px solid #bdc3c7;
+	display: inline-block;
+	float: right;
+	height: 115vh;
+	width: 15%;
+    margin-top: -7px;
+    margin-left: 30px;
+    margin-right: -5px;
+}
+nav ul {
+	list-style: none;
+	padding: 10px;
+}
+nav ul li {
+	margin-bottom: 10px;
+}
+
+nav ul li a {
+	color: #fcfdff;
+	display: block;
+	padding: 7px;
+	text-decoration: none;
+    text-align: right;
+}
+
+nav ul li a:hover {
+	background-color: #525050;
+	color: #fff;
+}
+.cov {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    margin-right: 15%;
+    margin-top: -4px;
+    margin-left: 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dashboard-item {
+    width: 350px;
+    height: 150px;
+    background-color: #eee;
+    border: 1px solid #89a3a5;
+    border-radius:5%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.2s ease;
+    font-size: x-large;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+}
+
+.dashboard-item:hover {
+    transform: scale(1.2);
+    border-radius: 5%;
+    cursor: pointer;
+}
+#item1{
+    background-color: #f40404;
+    margin-top: 3%;
+}
+#item2{
+    background-color: #0007aa;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+#item3{
+    background-color: #dd9f54;
+}
+#item4{
+    background-color: #ff00b8;
+    margin-left: 10%;
+
+}
+#item5{
+    background-color: #7d0af0;
+}
+#item6{
+    background-color: #dd9f54;
+    margin-left: 10%;
+}
+#item7{
+    background-color: #f39d00;
+    margin-right: 28%;
+}
+.img1 {
+    margin: 30px;
+    width: 20%;
+}
+.img2 {
+    margin: 30px;
+    width: 20%;
+}
+.img3 {
+    margin: 30px;
+    width: 20%;
+}
+.img4 {
+    margin: 30px;
+    width: 20%;
+}
+.img5 {
+    margin: 30px;
+    width: 20%;
+}
+.img6 {
+    margin: 30px;
+    width: 20%;
+}
+.img7 {
+    margin: 30px;
+    width: 20%;
+}
+
+   
